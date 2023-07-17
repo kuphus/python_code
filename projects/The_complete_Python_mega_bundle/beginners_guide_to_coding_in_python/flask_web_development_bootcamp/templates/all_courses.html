@@ -1,0 +1,11 @@
+{% for course in courses %}
+
+	<h1>{{course.title}}</h1>
+	
+	<img src={{course.image_url}} width="500em" alt="{{course.title}}">
+	
+	<br>
+	
+	<p>Course ID: {{course.id}}</p>
+
+{% endfor %}
